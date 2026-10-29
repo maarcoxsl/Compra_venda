@@ -4,7 +4,9 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace Compra_venda.Models {
-    public class Mercado{
+    public class Mercado : Empresas{
+               
+        
         public string? nomeEmpresa1;
         public string? nomeEmpresa2;
         public string? nomeEmpresa3;
@@ -26,12 +28,7 @@ namespace Compra_venda.Models {
 }
 
 /*
- Oque precisa para ter uma clase com informacao do usuario
-1 - Nome do usuario
-2 - numero da conta
-3 - saldo
-4 - 
+   Implementar herança aqui
  
- 
- */
+*/
   

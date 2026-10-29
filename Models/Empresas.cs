@@ -21,22 +21,6 @@ namespace Compra_venda.Models {
     }
 }
 
-/*
- nomes.nomeEmpresa1 = "Petrobras";
-            nomes.acaoEmpresa1 = "";
-            nomes.precoAcao1 = 222.32;
-
-            nomes.nomeEmpresa2 = "Vale";
-            nomes.acaoEmpresa2 = "VALE3";
-            nomes.precoAcao2 = 355.50;
-
-            nomes.nomeEmpresa3 = "Itau";
-            nomes.acaoEmpresa3 =  "ITUB4";
-            nomes.precoAcao3 = 100.50;
-
-            nomes.acaoEmpresa4 = "Magazine Luiza";
-            nomes.acaoEmpresa4 = "MGLU3";
-            nomes.precoAcao4 = 355.50;
  
  
  
@@ -47,5 +31,3 @@ namespace Compra_venda.Models {
  
  
  
- 
- */
