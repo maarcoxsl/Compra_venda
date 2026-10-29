@@ -5,30 +5,76 @@ using System.Text;
 
 namespace Compra_venda.Models {
     public class Mercado : Empresas{
-               
+        public Mercado() { }
+         
+     public  void ComprarAcao1(int escolhaUser) {
+            double qtdAcao = 0;
+            double vlrFinal = 0;
+
+            while (!escolhaUser.Equals(2)) {
+                   Console.WriteLine("Insira 1 para comprar mais ações ou 2 para fechar a conta e proseguir para o pagamento");
+                   escolhaUser = int.Parse(Console.ReadLine());
+
+                   qtdAcao++;
+                   vlrFinal = precoAcao1 * qtdAcao;
+                   Console.WriteLine($"Preço Final:{vlrFinal}\nNumero de ações: {qtdAcao}");
+
+            }
+            Console.WriteLine($"Ações compradas: {qtdAcao}\nPreçoFinal: {vlrFinal}");
+
+        } 
+    public void ComprarAcao2(int escolhaUser) {
+            double qtdAcao = 0;
+            double vlrFinal;
+
+            while (!escolhaUser.Equals(2))
+            {
+                escolhaUser = int.Parse(Console.ReadLine());
+
+                qtdAcao++;
+                vlrFinal = precoAcao2 * qtdAcao;
+                Console.WriteLine($"Preço Final:{vlrFinal}\nNumero de ações: {qtdAcao}");
+
+            }
+            Console.WriteLine("Compra encerrada");
+
+        }
+        public void ComprarAcao3(int escolhaUser) {
+            double qtdAcao = 0;
+            double vlrFinal;
+
+            while (!escolhaUser.Equals(2))
+            {
+                escolhaUser = int.Parse(Console.ReadLine());
+
+                qtdAcao++;
+                vlrFinal = precoAcao3 * qtdAcao;
+                Console.WriteLine($"Preço Final:{vlrFinal}\nNumero de ações: {qtdAcao}");
+
+            }
+            Console.WriteLine("Compra encerrada");
+        }
+        public void ComprarAcao4(int escolhaUser) {
+            double qtdAcao = 0;
+            double vlrFinal;
         
-        public string? nomeEmpresa1;
-        public string? nomeEmpresa2;
-        public string? nomeEmpresa3;
-        public string? nomeEmpresa4;
+            while (!escolhaUser.Equals(2)) { 
+                  escolhaUser = int.Parse(Console.ReadLine());
 
-        public string? acaoEmpresa1;
-        public string? acaoEmpresa2;
-        public string? acaoEmpresa3;
-        public string? acaoEmpresa4;
+                  qtdAcao++;
+                  vlrFinal = precoAcao4 * qtdAcao;
+                  Console.WriteLine($"Preço Final:{vlrFinal}\nNumero de ações: {qtdAcao}");
+            }
+            Console.WriteLine("Compra encerrada");
+        }
+    
 
-        public double precoAcao1;
-        public double precoAcao2;
-        public double precoAcao3;
-        public double precoAcao4;
-                
+
+        // public void CatalagoAcoes() { } (Não usar por enquanto)
+
+
     }
 
 
 }
 
-/*
-   Implementar herança aqui
- 
-*/
-  
