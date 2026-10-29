@@ -73,7 +73,6 @@ namespace Compra_venda {
             Console.WriteLine($"Código: {nomes.acaoEmpresa4}");
             Console.WriteLine($"Preço: {nomes.precoAcao4}");
         }
-
         public void EscolhaCompra() {
             Empresas empresa = new Empresas();
             int escolhaCompra;
